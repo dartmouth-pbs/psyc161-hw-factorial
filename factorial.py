@@ -20,6 +20,6 @@ if __name__ == '__main__':
     # This is a way to determine either file was "executed", so if it was
     # imported (by e.g. pytest) as a library, we should not run code
     # below
-    nconditions = raw_input("Please enter number of conditions: ")
+    nconditions = input("Please enter number of conditions: ")
     norders = factorial(nconditions)
     print("Number of possible trial orders: " + str(norders))
