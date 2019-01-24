@@ -7,8 +7,10 @@ Note:  this is just a skeleton for you to work with.  But it already
 
 
 def factorial(n):
-    # TODO Define your logic for factorial here
-    return # TODO!
+    prod = 1
+    for i in range(n):
+        prod = prod * (n-i)
+    return prod
 
 def test_factorial():
     assert factorial(1) == 1
@@ -20,4 +22,4 @@ if __name__ == '__main__':
     # below
     nconditions = raw_input("Please enter number of conditions: ")
     norders = factorial(nconditions)
-    print("Number of possible trial orders: " + str(norders)
+    print("Number of possible trial orders: " + str(norders))
