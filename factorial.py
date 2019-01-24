@@ -12,11 +12,13 @@ def factorial(n):
         fact = fact * (i + 1)
     return fact
 
+
 def test_factorial():
     assert factorial(0) == 1
     assert factorial(1) == 1
     assert factorial(2) == 2
     assert factorial(3) == 6
+
 
 if __name__ == '__main__':
     # This is a way to determine either file was "executed", so if it was
