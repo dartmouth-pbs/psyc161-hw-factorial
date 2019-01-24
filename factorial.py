@@ -14,7 +14,8 @@ def factorial(n):
 
 def test_factorial():
     assert factorial(1) == 1
-    # TODO: add more
+    assert factorial(4) == 24
+    assert factorial(0) == 1
 
 if __name__ == '__main__':
     # This is a way to determine either file was "executed", so if it was
