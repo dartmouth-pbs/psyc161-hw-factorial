@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 """Module for estimation of factorial (Homework #1)
+Mohsen Rakhshan
 Note:  I am playing with this homework to learn git and ...
 """
 
