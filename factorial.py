@@ -8,23 +8,17 @@ Note:  this is just a skeleton for you to work with.  But it already
 
 def factorial(n):
 
-    if n == 0 or n < 0:
+    outputCalc = 1
 
-        outputCalc = 1
+    for number in range(1, n+1):
 
-    else:
-
-        outputCalc = 1
-
-        for number in range(1, n+1):
-
-            outputCalc = number * outputCalc
+        outputCalc = number * outputCalc
 
     return outputCalc
 
 
 def test_factorial():
-    assert factorial(1) == 1
+    assert factorial(2) == 1
     assert factorial(0) == 1
     assert factorial(-10) == 1
 
