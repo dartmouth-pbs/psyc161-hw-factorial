@@ -19,9 +19,6 @@ def test_factorial():
 
 
 if __name__ == '__main__':
-    # This is a way to determine either file was "executed", so if it was
-    # imported (by e.g. pytest) as a library, we should not run code
-    # below
     nconditions = int(input("Please enter number of conditions: "))
     norders = factorial(nconditions)
     print("Number of possible trial orders: " + str(norders))
