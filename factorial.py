@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 """Module for estimation of factorial (Homework #1)
-
-Note:  this is just a skeleton for you to work with.  But it already
-       has some "bugs" you need to catch and fix.
+Note:  I am playing with this homework to learn git and ...
 """
 
 
