@@ -9,11 +9,8 @@ Note:  this is just a skeleton for you to work with.  But it already
 def factorial(n):
 
     outputCalc = 1
-
     for number in range(1, n+1):
-
         outputCalc = number * outputCalc
-
     return outputCalc
 
 
