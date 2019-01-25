@@ -7,17 +7,25 @@ Note:  this is just a skeleton for you to work with.  But it already
 
 
 def factorial(n):
-    # TODO Define your logic for factorial here
-    return # TODO!
+    fac = 1
+    for i in range(n):
+        i += 1
+        fac = i * fac 
+        
+    return fac
+
 
 def test_factorial():
     assert factorial(1) == 1
-    # TODO: add more
+    assert factorial(2) == 2
+    assert factorial(3) == 6
+    assert factorial(4) == 24
+
 
 if __name__ == '__main__':
     # This is a way to determine either file was "executed", so if it was
     # imported (by e.g. pytest) as a library, we should not run code
     # below
-    nconditions = raw_input("Please enter number of conditions: ")
+    nconditions = int(input("Please enter number of conditions: "))
     norders = factorial(nconditions)
-    print("Number of possible trial orders: " + str(norders)
+    print("Number of possible trial orders: " + str(norders))
